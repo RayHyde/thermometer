@@ -23,7 +23,7 @@
   &lt;span class="goal"&gt;&euro; 16.000&lt;/span&gt;
 &lt;/div&gt;</pre>
 							
-<p>That way the text is visible when Javascript is not around and the information stays is legible for screen readers and search engines. Also the amounts can be changed easily in CMS systems like Wordpress.</p>
+<p>That way the text is visible when Javascript is not around and the information stays legible for screen readers and search engines. Also the amounts can be changed easily in CMS systems like Wordpress.</p>
 <h3>3. Call the plugin</h3>
 <p>Then initialize the plugin, telling it in which element it needs to run:</p>
 <pre>

@@ -7,16 +7,17 @@
 </ul>
 
 <p><strong>See it in action:</strong> <a href="http://rayhyde.github.io/thermometer/">http://rayhyde.github.io/thermometer/</a></p>
-	<h2>How to use this plugin</h2>
-	<h3>1. Link the files you need</h3>
-	<p>Include the jQuery script at the bottom of your page, e.g. through a CDN:</p>
-	<p><code>	&lt;script src="//code.jquery.com/jquery-2.1.3.min.js"&gt;&lt;/script&gt;</code></p>
-	<p>Then include the minimized version of the script:</p>
-	<p><code>&lt;script src="[path to your script]/jquery.thermometer.min.js"&gt;&lt;/script&gt;</code></p>
 
-	<p>Change [path to your script] to where it resides, eg "js".</p>
-	<h3>2. Create your HTML markup</h3>
-	<p>This is very simple: create an element that contains the thermometer plus a couple of spans that the plugin uses to get the numbers it needs:</p>
+<h2>How to use this plugin</h2>
+<h3>1. Link the files you need</h3>
+<p>Include the jQuery script at the bottom of your page, e.g. through a CDN:</p>
+<p><code>	&lt;script src="//code.jquery.com/jquery-2.1.3.min.js"&gt;&lt;/script&gt;</code></p>
+<p>Then include the minimized version of the script:</p>
+<p><code>&lt;script src="[path to your script]/jquery.thermometer.min.js"&gt;&lt;/script&gt;</code></p>
+
+<p>Change [path to your script] to where it resides, eg "js".</p>
+<h3>2. Create your HTML markup</h3>
+<p>This is very simple: create an element that contains the thermometer plus a couple of spans that the plugin uses to get the numbers it needs:</p>
 <pre>&lt;div id="thermometer"&gt;
   &lt;span class="current"&gt;&euro; 12.000&lt;/span&gt;
   &lt;span class="goal"&gt;&euro; 16.000&lt;/span&gt;

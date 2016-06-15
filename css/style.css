@@ -13,6 +13,10 @@
 #thermometer .goal{
 	color: #FFDD9B;
 }
+h1, h2, h3 {
+	color: #22235C;
+	font-family: Cambria, serif
+}
 #explain {
   background: #406886 url("http://rayhyde.nl/playground/img/playground.png") no-repeat scroll 98% bottom / 150px auto;
 /*  width: 50%;*/

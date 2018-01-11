@@ -11,7 +11,7 @@
 	<meta name="keywords" content="jquery, css, meter, thermometer, fundtaising">
 	<meta name="author" content="Ray Hyde | www.rayhyde.nl">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	
+
 	<link href='https://fonts.googleapis.com/css?family=Carter+One' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Satisfy' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
@@ -34,6 +34,7 @@
 							<div id="thermometer">
 								<span class="current">&euro; 9.000</span>
 								<span class="goal">&euro; 16.000</span>
+								<div class="hilite"></div>
 							</div>
 						</div>
 					</div>
@@ -64,17 +65,17 @@
 								<h3>2. Create your HTML markup</h3>
 								<p>This is very simple: create an element that contains the thermometer plus a couple of spans that the plugin uses to get the numbers it needs:</p>
 <pre>&lt;div id="thermometer"&gt;
-  &lt;span class="current"&gt;&euro; 12.000&lt;/span&gt;
-  &lt;span class="goal"&gt;&euro; 16.000&lt;/span&gt;
+	&lt;span class="current"&gt;&euro; 12.000&lt;/span&gt;
+	&lt;span class="goal"&gt;&euro; 16.000&lt;/span&gt;
 &lt;/div&gt;</pre>
-							
+
 							<p>That way the text is visible when Javascript is not around and the information stays is legible for screen readers and search engines. Also the amounts can be changed easily in CMS systems like Wordpress.</p>
 							<h3>3. Add the thermometer.css file to the &lt;head&gt; section of your page</h3>
 <h3>4. Call the plugin</h3>
 							<p>Then initialize the plugin, telling it in which element it needs to run:</p>
 								<pre>
 &lt;script&gt;
-  $(&lt;containing element here, e.g. "#thermometer"&gt;).thermometer();
+	$(&lt;containing element here, e.g. "#thermometer"&gt;).thermometer();
 &lt;/script&gt;
 	</pre>
 
